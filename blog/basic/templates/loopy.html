@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+    <head>
+        <title>Mypet blog</title>
+
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div>
+            <h1><a href="">우리집 강아지</a></h1>
+        </div>
+            <p>published: 2023.05.17 </p>
+            <img src= "{% static '/img/강아지사진.png'%}" alt="none">
+            <div>
+             <div>   <h3>이름 : 루이<h3>
+             </div>
+  
+                <img src= "{% static '/img/루이.png'%}" alt="none">
+            <p><br><br>2010 ~ 2022.9.27<br>특징 : 활발하고 산책을 좋아했습니다.<br> 
+                특기 : 기다리는 것을 잘하며 머리가 좋아 눈치가 빨랐으며 점프를 잘했습니다.<br></p>
+        </div>
+        <div>   <h3>이름 : 루피<h3>
+        </div>
+        <div>
+            <img src= "{% static '/img/loopy.png'%}" alt="none">
+           
+            
+            <p><br><br>2010 ~ 2023.5.8<br>특징 : 누워있는 것을 좋아하며 밥을 잘먹었습니다.<br> 
+                특기 : 애교가 많고 겁이 많아 산책을 나가면 다른 강아지를 만나면 제 주위를 맴돌았습니다.<br></p>
+        </div>
+    </body>
+</html>
